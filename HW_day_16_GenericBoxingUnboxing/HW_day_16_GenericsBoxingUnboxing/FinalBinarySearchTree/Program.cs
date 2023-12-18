@@ -1,4 +1,4 @@
-﻿namespace BinarySearchTree
+﻿namespace FinalBinarySearchTree
 {
     internal class Program
     {
