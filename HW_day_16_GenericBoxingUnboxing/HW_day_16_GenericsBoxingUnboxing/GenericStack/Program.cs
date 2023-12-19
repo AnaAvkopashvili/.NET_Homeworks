@@ -1,42 +1,71 @@
 ﻿namespace GenericStack
 {
-    class GenerateStack<T>
+    class GenericStack<T>
     {
-        private Stack<T> stack;
-        public GenerateStack()
+        private int top;
+        private int size; // current size
+        private T[] stack;
+        private int capacity; // max capacity
+        public GenericStack(int _capacity)
         {
-            stack = new Stack<T>();
+            size = 0;
+            stack = new T[_capacity];
+            capacity = _capacity;
+            top = -1;
         }
-
+        
         public void MyPush(T item)
         {
-            stack.Push(item);
+            if (top + 1 < capacity)
+            {
+                top++;
+                stack[top] = item;
+                size++;
+            }
+            else
+            {
+                Console.WriteLine("Stack is full, can't add anymore elements");
+            }
         }
-
-        public T MyPop()
+        
+        public void MyPop()
         {
-            if (stack.Count == 0)
-                Console.WriteLine("Invalid");
-            return stack.Pop();
-
+            if (size > 0)
+            {
+                top--;
+                size--;
+            }
+            else
+            {
+                Console.WriteLine("Stack is empty, can't remove elements");
+            }
         }
         public T MyPeek()
         {
-            if (stack.Count == 0)
-                Console.WriteLine("Invalid");
-            return stack.Peek();
+            if (size != 0)
+            {
+                return stack[top];
+            }
+            else
+            {
+                Console.WriteLine("Stack is empty");
+                return default(T);
+            }
+
         }
     }
     class Program
     {
         static void Main(string[] args)
         {
-            GenerateStack<int> stack = new GenerateStack<int>();
+            GenericStack<int> stack = new GenericStack<int>(5);
+
             stack.MyPush(1);
             stack.MyPush(2);
             stack.MyPush(3);
 
-            Console.WriteLine(stack.MyPop());
+            Console.WriteLine(stack.MyPeek());
+            stack.MyPop();
             Console.WriteLine(stack.MyPeek());
         }
     }
