@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BalacingBrackets", "HW_day_17_DataStructures\BalacingBrackets.csproj", "{9A7EA64A-14AC-4983-AF5D-ABA65D4EBCE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointCalculations", "PointCalculations\PointCalculations.csproj", "{D94F0C16-FD83-44DC-A071-E6DD47878010}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleReturnValues", "MultipleReturnValues\MultipleReturnValues.csproj", "{478F14BC-7B49-416A-8312-49D5C312E6C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Book", "Book\Book.csproj", "{B719993D-E899-48A3-B81B-A5F298EB62F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A7EA64A-14AC-4983-AF5D-ABA65D4EBCE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A7EA64A-14AC-4983-AF5D-ABA65D4EBCE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A7EA64A-14AC-4983-AF5D-ABA65D4EBCE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A7EA64A-14AC-4983-AF5D-ABA65D4EBCE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D94F0C16-FD83-44DC-A071-E6DD47878010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D94F0C16-FD83-44DC-A071-E6DD47878010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D94F0C16-FD83-44DC-A071-E6DD47878010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D94F0C16-FD83-44DC-A071-E6DD47878010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{478F14BC-7B49-416A-8312-49D5C312E6C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{478F14BC-7B49-416A-8312-49D5C312E6C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{478F14BC-7B49-416A-8312-49D5C312E6C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{478F14BC-7B49-416A-8312-49D5C312E6C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B719993D-E899-48A3-B81B-A5F298EB62F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B719993D-E899-48A3-B81B-A5F298EB62F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B719993D-E899-48A3-B81B-A5F298EB62F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B719993D-E899-48A3-B81B-A5F298EB62F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5729796-9343-4A40-989B-0DA7E17BA1DC}
+	EndGlobalSection
+EndGlobal
