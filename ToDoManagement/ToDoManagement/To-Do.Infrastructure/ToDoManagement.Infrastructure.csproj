@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>To_Do.Infrastructure</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Options" Version="8.0.2" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\To-Do.Application\ToDoManagement.Application.csproj" />
+    <ProjectReference Include="..\To-Do.Domain\ToDoManagement.Domain.csproj" />
+    <ProjectReference Include="..\To-Do.Persitsence\ToDoManagment.Persitsence.csproj" />
+  </ItemGroup>
+
+</Project>
